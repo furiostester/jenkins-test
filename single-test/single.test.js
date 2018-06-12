@@ -62,6 +62,7 @@ describe('Test Single Language', () => {
      * Test zum Laden des Bookmarklets.
      * Es wird geprueft, ob das Element popup nach dem Laden der JavaScript Dateien vorhanden ist.
      */
+    /*
     test('Bookmarklet laden', async () => {
         await page.goto(MISC.dw, MISC.networkidle2);
         await page.waitForSelector(MISC.langTrigger);
@@ -83,7 +84,7 @@ describe('Test Single Language', () => {
         const popup = await page.$$eval("popup", el => (!!el));
         expect(popup).toBe(true);
     });
-
+    */
     /**
      * Test zum Einloggen in das Bookmarklet - Artikel Ranking (Rubrik).
      * Es wird geprueft, ob das Element bubbleText vorhanden ist.
