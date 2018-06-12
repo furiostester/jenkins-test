@@ -1,0 +1,3 @@
+(function () {
+    window.wissBmControl.invoke();
+})();
